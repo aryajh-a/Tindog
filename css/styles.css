@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* section */
+.colored-section{
+    background: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* title */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.first-head{
+    text-align: left;
+}
+
+.title-image {
+    width: 20%;
+    /* to rotate image */
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.feature-box {
+    margin: 10px auto 10px auto;
+    padding: 5%;
+}
+
+.icons {
+    color: #ef8172;
+    font-size: 4rem;
+    margin: 10px auto 20px auto;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.downloadbtn {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* testimonnials */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px;
+}
+
+/* pricing */
+
+.pricing-headings {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.pricing-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.row {
+    margin-top: 8%;
+}
+
+
+/* footer */
+
+.footer-icons {
+    margin: 1% 1%;
+}
+
+/* media */
+@media (max-width: 1080px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0)
+    }
+}
