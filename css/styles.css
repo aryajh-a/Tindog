@@ -10,12 +10,13 @@ body {
 
 /* section */
 .colored-section{
-    background: #ff4c68;
+    background: #9A208C;
     color: #fff;
+    padding-top: 50px;
 }
 
 .white-section{
-    background-color: #fff;
+    background-color: #F5C6EC;
 }
 
 /* title */
@@ -25,8 +26,9 @@ body {
 }
 
 .title-heading {
-    font-weight: 900;
-    font-size: 3.5rem;
+    font-family: 'DynaPuff', cursive;
+    font-weight: bold;
+    font-size: 4.2rem;
     line-height: 1.5;
 }
 
@@ -34,12 +36,23 @@ body {
     text-align: left;
 }
 
-.title-image {
-    width: 20%;
-    /* to rotate image */
-    transform: rotate(20deg);
+.title-image{
+    width: 28%;
+    transform: rotate(25deg);
     position: absolute;
-    right: 30%;
+    right: 20%;
+}
+
+
+.Sign{
+    margin: 50px 10px 10px 10px;
+    padding: 10px 40px 10px 40px;
+    font-size: 1.5rem;
+}
+
+/* to push button to the left side of its container */
+.alignbuttons{
+    text-align: left;
 }
 
 /* features */
@@ -60,7 +73,7 @@ body {
 }
 
 .icons {
-    color: #ef8172;
+    color: #b039a2;
     font-size: 4rem;
     margin: 10px auto 20px auto;
 }
@@ -77,26 +90,23 @@ body {
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    font-family: 'Montserrat';
-}
-
-.navbar-brand {
+    font-size: 1.7rem;
     font-family: 'Ubuntu';
-    font-size: 2rem;
     font-weight: bold;
 }
 
-/* Buttons */
-
-.downloadbtn {
-    margin: 5% 3% 5% 0;
+.navbar-brand {
+    font-family:"Asul";
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-left: 50px;
 }
+
 
 
 /* testimonnials */
 #testimonials {
-    background-color: #ef8172;
+    background-color: #b0409f;
 }
 
 .testimonial-image {
@@ -110,10 +120,6 @@ body {
     font-size: 2.7rem;
 }
 
-#press {
-    background-color: #ef8172;
-    padding-bottom: 4%;
-}
 
 .press-logo {
     width: 15%;
@@ -154,5 +160,9 @@ body {
         position: static;
         width: 60%;
         transform: rotate(0)
+    }
+
+    .alignbuttons{
+        text-align: center;
     }
 }
