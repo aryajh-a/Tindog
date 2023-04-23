@@ -6,7 +6,8 @@
   <title>TinDog</title>
 
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&family=Asul:wght@700&family=DynaPuff:wght@700&display=swap"
     rel="stylesheet">
 
   <!-- bootstrap -->
@@ -25,13 +26,13 @@
 
 </head>
 
-<body>
+<body id="home">
 
   <section class="colored-section" id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand">tindog</a>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand">TINDOG</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,7 +40,10 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#foot">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#pricing">Pricing</a>
@@ -54,15 +58,14 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="title-heading first-head">Meet new and interesting dogs nearby.</h1>
-
-          <button type="button" class="btn btn-dark btn-lg downloadbtn"><i class="fab fa-apple"></i>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg downloadbtn"><i
-              class="fab fa-google-play"></i>Download</button>
-
+          <h1 class="title-heading first-head" id="title">Meet new and interesting dogs nearby.</h1>
+          <div class="alignbuttons">
+            <button type="button" class="btn btn-dark btn-lg Sign">Sign Up</button>
+            <button type="button" class="btn btn-outline-light btn-lg Sign">Sign in</button>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        <div class="col-lg-6 image">
+          <img class="title-image" src="images/imgtindog.png" alt="iphone-mockup">
         </div>
       </div>
 
@@ -73,7 +76,7 @@
 
   <!-- Features -->
 
-  <section class="white-section"  id="features">
+  <section class="white-section" id="features">
 
     <div class="container-fluid">
       <div class="row">
@@ -103,7 +106,7 @@
 
   <!-- Testimonials -->
 
-  <section class="colored-section"  id="testimonials">
+  <section class="colored-section" id="testimonials">
 
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -135,21 +138,9 @@
 
   </section>
 
-
-  <!-- Press -->
-
-  <section class="colored-section"  id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
-  </section>
-
-
   <!-- Pricing -->
 
-  <section class="white-section"  id="pricing">
+  <section class="white-section" id="pricing">
     <div class="container-fluid">
       <h2 class="pricing-headings">A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
@@ -210,20 +201,20 @@
 
   <!-- Call to Action -->
 
-  <section class="colored-section"  id="cta">
-<div class="container-fluid">
-    <h3 class="title-heading">Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-dark btn-lg downloadbtn"><i class="fab fa-apple"></i>Download</button>
-    <button type="button" class="btn btn-outline-light btn-lg downloadbtn"><i
-        class="fab fa-google-play"></i>Download</button>
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="title-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg downloadbtn"><i class="fab fa-apple"></i>Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg downloadbtn"><i
+          class="fab fa-google-play"></i>Download</button>
 
-      </div>
+    </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer class="container-fluid white-section" id="footer ">
+  <footer class="container-fluid white-section" id="foot">
 
     <i class="fa-brands fa-twitter footer-icons"></i>
     <i class="fa-brands fa-facebook footer-icons"></i>
